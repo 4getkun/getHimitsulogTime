@@ -34,7 +34,7 @@ timeList.reverse()
 attackTime = []
 for i, n in enumerate(timeList):
     n = int(n)
-    nPlusTen = n + 10
+    nPlusTen = (n + 10) % 60
     nToStr = str(nameList[i]) + " (" + str(n) + "分or" + str(nPlusTen) + "分)"
     attackTime.append(nToStr)
 result = "、".join(attackTime)
