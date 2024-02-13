@@ -1,7 +1,7 @@
 import re
 import pyperclip
 
-# 事前に勢力図などからログをコピーしよう
+# 事前に勢力図などからログをコピーしてね
 country = "なきうさぎ連合"  # 自分の所属する国を入れよう
 opponentCountry = "便利屋68"  # 戦ってる相手の国を入れよう
 
